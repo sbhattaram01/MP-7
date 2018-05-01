@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
         load.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(final View v) {
-                Log.d(TAG, "load button clicked");
+                Log.d(TAG, "load button");
                 TextView text = findViewById(R.id.dailyQuote);
                 text.setText(getSavedQuotes().toString());
             }
